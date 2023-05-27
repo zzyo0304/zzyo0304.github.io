@@ -246,6 +246,7 @@
 .author-info__description {
   transition: text-shadow 1s linear !important;
 }
+
 /* 鼠标样式 */
 #cursor {
   position: fixed;
@@ -283,7 +284,6 @@
   -o-transform: scale(0.5);
 }
 
-
 /* 背景宇宙星光  */
 #universe{
   display: block;
@@ -297,6 +297,5 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
   z-index: -1;
-} 
+}
